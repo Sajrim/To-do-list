@@ -17,7 +17,7 @@
 
 .form__button {
     padding: 10px;
-    background: teal;
+    background: hsl(180, 100%, 25%);
     color: white;
     border: none;
 }
@@ -30,5 +30,8 @@
 }
 
 .form__button:active {
-    background: hsl(180, 100%, 25%);
+    padding: 10px;
+    background: hsl(180, 100%, 35%);
+    color: white;
+    border: none;
 }

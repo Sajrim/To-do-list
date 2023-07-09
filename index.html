@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do-list</title>
+    <link href="css/container.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
     <link href="css/tasks.css" rel="stylesheet">
@@ -20,41 +21,43 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-            Lista zadań
-        </h1>
-    </header>
-    <div class="section">
-        <h2 class="section__header">
-            Dodaj nowe zadanie
-        </h2>
-        <div class="section__body">
-            <form class="js-form form">
-                <input class="js-newTask form__input" placeholder="Co jest do zrobienia?">
-                <button class="form__button"> Dodaj zadanie</button>
-            </form>
-        </div>
-    </div>
-    <div class="section">
-        <h2 clas="section__header">
-            Lista zadań
-        </h2>
-        <div class="section__body">
-            <ul class="js-tasks tasks"> Lista zadań
-                <li class="tasks__item js-task">
-                    <button class="tasks__button tasks__button--toggleDone js-toggleDone">✔️</button>
-                    <span class="tasks__content tasks__content--done">zjeść pierogi</span>
-                    <button class="tasks__button tasks__button--remove js-remove">🗑️</button>
-                </li>
-                <li class="tasks__item js-task">
-                    <button class="tasks__button tasks__button--toggleDone js-toggleDone">✔️</button>
-                    <span class="tasks__content tasks__content--done">tekst</span>
-                    <button class="tasks__button tasks__button--remove js-remove">🗑️</button>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <main class="container">
+        <header>
+            <h1>
+                Lista zadań
+            </h1>
+        </header>
+        <section class="section">
+            <h2 class="section__header">
+                Dodaj nowe zadanie
+            </h2>
+            <div class="section__body">
+                <form class="js-form form">
+                    <input class="js-newTask form__input" placeholder="Co jest do zrobienia?">
+                    <button class="form__button"> Dodaj zadanie</button>
+                </form>
+            </div>
+            </section>
+            <section class="section">
+                <h2 class="section__header">
+                    Lista zadań
+                </h2>
+                <div class="section__body">
+                    <ul class="js-tasks tasks">
+                        <li class="tasks__item js-task">
+                            <button class="tasks__button tasks__button--toggleDone js-toggleDone">✔️</button>
+                            <span class="tasks__content tasks__content--done">zjeść pierogi</span>
+                            <button class="tasks__button tasks__button--remove js-remove">🗑️</button>
+                        </li>
+                        <li class="tasks__item js-task">
+                            <button class="tasks__button tasks__button--toggleDone js-toggleDone">✔️</button>
+                            <span class="tasks__content tasks__content--done">tekst</span>
+                            <button class="tasks__button tasks__button--remove js-remove">🗑️</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    </main>
 </body>
 
 </html>
