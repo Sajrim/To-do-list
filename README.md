@@ -1,6 +1,6 @@
 # A to-do list website that, can help you organise your tasks 
 
- [the website looks like](images/page.png)
+[the website looks like](Images/page.png)
 
 [Link do strony](https://sajrim.github.io/To-do-list/)
 
