@@ -23,6 +23,7 @@
     width: 30px;
     height: 30px;
     padding: 0;
+    cursor: pointer;
 }
 
 .tasks__button--toggleDone {
@@ -37,7 +38,7 @@
     background: hsl(120, 61%, 44%);
 }
 
-.tasks__button--remove{
+.tasks__button--remove {
     background: hsl(348, 83%, 47%);
 }
 

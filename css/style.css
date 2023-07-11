@@ -16,6 +16,6 @@ body {
 }
 
 
-button:disabled {
+.button:disabled {
     cursor: not-allowed;
 }
