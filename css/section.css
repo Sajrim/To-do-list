@@ -11,6 +11,45 @@
     border-bottom: 1px solid #ddd;
 }
 
+.section__headerTasks {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+}
+
+.section__heading {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 5px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+@media(max-width: 767px) {
+    .section__heading {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__button {
+    font-size: 16px;
+    padding: 0px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    color: hsl(180, 100%, 30%);
+    transition: 1s;
+}
+
+.section__button:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.section__button:active {
+    color: hsl(180, 100%, 40%);
+}
+
 .section__body {
     padding: 20px;
 }

@@ -21,6 +21,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    transition: 1s;
 }
 
 .form__button:hover {
@@ -28,6 +29,7 @@
     background: hsl(180, 100%, 30%);
     color: white;
     border: none;
+    transform: scale(1.05);
 }
 
 .form__button:active {
