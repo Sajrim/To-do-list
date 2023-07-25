@@ -34,9 +34,9 @@
 
 .section__button {
     font-size: 16px;
-    padding: 0px;
+    padding: 10px;
     border: none;
-    background: #ddd;
+    background: transparent;
     cursor: pointer;
     color: hsl(180, 100%, 30%);
     transition: 1s;
@@ -48,6 +48,10 @@
 
 .section__button:active {
     color: hsl(180, 100%, 40%);
+}
+
+.section__button:disabled {
+    color: #ccc;
 }
 
 .section__body {
