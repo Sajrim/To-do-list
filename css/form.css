@@ -21,15 +21,11 @@
     color: white;
     border: none;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .form__button:hover {
-    padding: 10px;
     background: hsl(180, 100%, 30%);
-    color: white;
-    border: none;
-    transform: scale(1.05);
 }
 
 .form__button:active {

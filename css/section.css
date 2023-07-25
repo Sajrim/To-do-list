@@ -19,10 +19,10 @@
 
 .section__heading {
     display: grid;
-    grid-template-columns: 1fr auto auto;
-    grid-gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 20px;
     align-items: center;
-    padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -34,12 +34,12 @@
 
 .section__button {
     font-size: 16px;
-    padding: 10px;
+    margin-left: 10px;
     border: none;
     background: transparent;
     cursor: pointer;
     color: hsl(180, 100%, 30%);
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .section__button:hover {
